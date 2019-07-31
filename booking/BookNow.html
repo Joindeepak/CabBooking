@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Booking page</title>
+</head>
+
+<body>
+
+<form>
+<div class="cab" style="text-align:center; background-color:#F00; color:#FFF; width:23%; margin-left:500px; font-size: 24px; height:100px; padding:2px; border-radius:20px; cursor:pointer;">
+<h2>BOOK MY CAB</h2>
+  </div>
+  
+                               
+                  <label> Name:</label>
+                  <input type="text" name="name"  required>
+                  <br />
+              
+                
+                  <label>Phone Number:</label>
+                  <input type="text" name="phone number"  required>
+                   <br />         
+                              
+                <label>Pickup location:</label>
+                <input type="text" name="pickup" required>
+                <br />
+                
+                  <label>Drop location:</label>
+                  <input type="text" name="drop" required>
+               <br />
+       
+                  <label>Pickup time:</label>
+ <input type="text" id="timepicker" name="Time" value="Hrs:Min" />               
+             <br />
+                  <label>Pickup date:</label>
+                  <input  id="datepicker" name="date" type="text" value="mm/dd/yyyy"  required  />
+                  <br />
+                <a href="Thankyoupages.html"><button type="submit" class="submit">Book My Cab</button></a>
+  
+              </form>
+              </div>
+              </body>
+         
+    
+    
+            <style>
+body {
+	font-family: Arial, Helvetica, sans-serif;}
+   *{ box-sizing: border-box;
+	
+	
+
+
+
+
+}
+
+
+/* width input fields */
+input[type=text], input[type=text],input[type=text] {
+  width:100%;
+  padding: 10px 5px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  background-color:#999;
+  
+  
+ 
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=text]:focus,input[type=text]:focus {
+  background-color: #CCC; 
+  outline: none;
+  
+}
+/*style for a button*/
+
+
+.submit{
+  background-color:#F00;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  font-size:20px;
+  opacity: 0.9;
+  width:100%;
+  
+}
+.submit:hover{
+	background-color:#4CAF50;
+	opacity:1;
+}
+.cab:hover{
+	background-color:#00F;
+	opacity:1;
+  
+}
+
+
+
+</style>
+
+</body>
+</html>

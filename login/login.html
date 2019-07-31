@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>LOGIN</title>
+</head>
+<style>
+form{
+	border:3px solid #CCC;
+}
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.contriner {
+  padding:16px;
+}
+
+input[type=text],input[type=password]
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color:#CCC;
+  outline:none;
+  
+}
+
+button[type=button]
+{
+  background-color: #03F;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover{
+	opacity:0.8;
+}
+
+.imgcontriner{
+	text-align:center;
+	margin:24px 0px 24px 0px;
+}
+
+img{
+	width:30%;
+	border-radius:40%;
+}
+
+h2{
+	text-align:center;
+	font-size:40px;
+	color:#00F;
+}
+
+</style>
+<body>
+
+<h2>LOGIN</h2>
+
+<form>
+<div class="contriner">
+
+<div class="imgcontriner">
+<img src="../IMG/taxi.png" />
+</div>
+
+<label for="username"><b>UserName</b></label>
+<input type="text" placeholder="Enter username" name="UserName" />
+
+<label for="password"><b>Password</b></label>
+<input type="password" placeholder="Enter Password" name="password" />
+
+<a href="base.html"><button type="button"><b>Login</b></button> </a>
+
+<label>
+<input type="checkbox" checked="checked" name="remember" />Remember me
+</label>
+
+</div>
+</form>
+
+
+
+</body>
+</html>
